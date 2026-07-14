@@ -52,6 +52,7 @@ Sistem, fiziksel donanım üzerinde uçtan uca test edilmiş ve stabil bir şeki
 * `/sistem_mimarisi.png` -> Sistem haberleşme ve veri akış diyagramı.
 * `/donanim_semasi.png` -> Alıcı tarafındaki ESP32 - I2C LCD devre bağlantı şeması.
 * `/proje_demo.gif` -> Sistemin canlı çalışma simülasyonu / videosu.
+* `/serial_monitor_output.png` -> Seri Port çıktısı /Telemetri.
 * `/fiziksel_tasarim.jpg` -> Fiziksel devre bağlantılarının görseli.
 * `/LICENSE` -> MIT Lisansı.
 
