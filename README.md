@@ -41,12 +41,12 @@ Sistem, fiziksel donanım üzerinde uçtan uca test edilmiş ve stabil bir şeki
 * **Veri Ayrıştırma:** Alıcı ESP32, gelen ham paketleri havada yakalayıp `strtok()` fonksiyonu ile gerçek zamanlı olarak parçalamaktadır.
 * **Ekran Çıktısı:** Ayrıştırılan hız (Knots) ve rota (Degrees) bilgileri, ESP32'nin 3.3V pini üzerinden beslenen I2C LCD ekrana anlık ve kesintisiz olarak yazdırılmaktadır.
 
-### 🎥 Çalışma Videosu (GIF)
+### Çalışma Videosu (GIF)
 ![Proje Demo](proje_demo.gif)
 
 ---
 
-## 📂 Proje Klasör Yapısı
+## Proje Klasör Yapısı
 * `/esp_transmitter.ino` -> Verici ESP32 düğümünün kaynak kodları.
 * `/esp_receiver.ino` -> Alıcı ESP32 ve LCD ekran yönetiminin kaynak kodları.
 * `/sistem_mimarisi.png` -> Sistem haberleşme ve veri akış diyagramı.
