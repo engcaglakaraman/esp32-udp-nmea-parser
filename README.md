@@ -4,7 +4,7 @@ Bu proje, marin ve yat elektroniği sektöründe sıkça kullanılan **NMEA-0183
 
 Staj ve endüstriyel portfolyo hedefiyle geliştirilen bu çalışma; gömülü sistemler, kablosuz ağ protokolleri ve düşük seviyeli veri işleme (string parsing) yetkinliklerini bir arada sunmaktadır.
 
----
+
 
 ## Teknik Özellikler & Teknolojiler
 * **Mikrodenetleyici:** 2x ESP32 (Geliştirme Kartı)
@@ -14,7 +14,7 @@ Staj ve endüstriyel portfolyo hedefiyle geliştirilen bu çalışma; gömülü 
 * **Programlama Dili & Geliştirme Ortamı:** C++ / Arduino IDE
 * **Veri Ayrıştırma Teknolojisi:** C-Style Pointer & `strtok()` fonksiyonu ile sıfır gecikmeli veri parçalama
 
----
+
 
 ## Sistem Mimarisi & Çalışma Mantığı
 
@@ -32,7 +32,7 @@ Sistem, denizcilik telemetri altyapılarına benzer şekilde **Verici (Transmitt
 * **`strtok()`** yardımıyla metni virgüllerden parçalayarak **Hız (Knots)** ve **Rota (Degrees)** bilgilerini milisaniyeler içinde çeker.
 * Ayrıştırılan temiz verileri I2C LCD ekran üzerinde düzenli bir arayüzle kaptanın paneline yazdırır.
 
----
+
 
 ## Proje Demo & Çalışma Testleri
 Sistem, fiziksel donanım üzerinde uçtan uca test edilmiş ve stabil bir şekilde çalıştırılmıştır.
@@ -44,7 +44,7 @@ Sistem, fiziksel donanım üzerinde uçtan uca test edilmiş ve stabil bir şeki
 ### Çalışma Videosu (GIF)
 ![Proje Demo](proje_demo.gif)
 
----
+
 
 ## Proje Klasör Yapısı
 * `/esp_transmitter.ino` -> Verici ESP32 düğümünün kaynak kodları.
@@ -56,7 +56,7 @@ Sistem, fiziksel donanım üzerinde uçtan uca test edilmiş ve stabil bir şeki
 * `/fiziksel_tasarim.jpg` -> Fiziksel devre bağlantılarının görseli.
 * `/LICENSE` -> MIT Lisansı.
 
----
+
 
 ## Geliştirici
 * **Çağla Karaman** - Bilgisayar Mühendisliği Öğrencisi, Bilecik Şeyh Edebali Üniversitesi
